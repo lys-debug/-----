@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>'동물의 숲' 나와 닮은 주민 찾기</title>
+
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="viewport">
+        <!-- 1페이지 -->
+        <section class="page page1 active">
+            <div class="page_box">
+                <div class="start_left">
+                    <img src="images/raccoon.png" alt="너구리">
+                </div>
+                <div class="start_right">
+                    <button type="button" class="start_btn">
+                        <img src="images/start_btn_03.png" alt="start_bg">
+
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2페이지 -->
+        <section class="page page2">
+            <div class="page2_box">
+                <div class="title">
+                    <img src="images/2_03.png" alt="제목">
+                </div>
+                <div class="name_box">
+                    <img src="images/2_07.png" alt="이름 입력 박스bg">
+                    <div class="name_inner">
+                        <p><span>이름</span>을 입력해주세요.</p>
+
+                        <div class="input_wrap">
+                            <label for="userName" class="sr-only">이름</label>
+                            <input type="text" id="userName" class="name_input" aria-required="true">
+                            <button type="button" class="name_ok_btn">확인</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3페이지 -->
+        <section class="page page3">
+            <div class="page3_box">
+                <div class="speech_box">
+                    <img src="images/2_07.png" alt="말풍선bg">
+                    <div class="speech_inner">
+                        <p class="speech_text" aria-live="polite"></p>
+                    </div>
+
+                    <button type="button" class="speech_arrow">
+                        <img src="images/arrow.png" alt="화살표">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- 4페이지 -->
+        <section class="page page4">
+            <div class="question_wrap">
+                <div>
+                    <p class="q_index" role="status" aria-live="polite">질문 <span>1</span>/<span>6</span></p>
+                    <p class="q_text">새로운 사람과 금방 친해지는 편이야?</p>
+                    <div class="q_btn">
+                        <button type="button" class="btn_answer btn_yes">YES</button>
+                        <button type="button" class="btn_answer btn_no">NO</button>
+                    </div>
+                    <button type="button" class="btn_prev_q">← 이전</button>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 5페이지 -->
+        <section class="page page5">
+            <div class="result_wrap">
+                <div>
+                    <div class="result_left">
+                        <img src="images/0개_13.png" alt="결과 img">
+                    </div>
+                    <div class="result_right">
+                        <p class="result_main">
+                            <span id="resultUserName"></span>님은
+                            <span id="resultCharacter"></span>
+                        </p>
+                        <p id="resultSub1"></p>
+                        <p id="resultSub2"></p>
+
+                        <p class="result_row">
+                            <strong>성격 :</strong>
+                            <span id="resultType"></span>
+                        </p>
+
+                        <p class="result_row">
+                            <strong>특징 :</strong>
+                            <span id="resultFeature"></span>
+                        </p>
+
+                        <p class="result_row">
+                            <strong>어울리는 사람 :</strong>
+                            <span id="resultMatch"></span>
+                        </p>
+
+                        <button type="button" class="btn_retry">🍀 다시 테스트 하기</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+
+    <script src="script/script.js" type="text/javascript"></script>
+</body>
+</html>

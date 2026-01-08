@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineQ</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script/script.js" type="text/javascript"></script>
+    
+</head>
+<body>
+    <header id="header">
+        <div class="header_box">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="CineQ_logo">
+                </a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href="#">영화</a>
+                        <ul class="sub">
+                            <li><a href="#">박스오피스</a></li>
+                            <li><a href="#">최신개봉작</a></li>
+                            <li><a href="#">상영예정작</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">예매</a>
+                        <ul class="sub">
+                            <li><a href="#">예매하기</a></li>
+                            <li><a href="#">상영시간표</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">영화관</a>
+                        <ul class="sub">
+                            <li><a href="#">서울/경기/인천</a></li>
+                            <li><a href="#">충청</a></li>
+                            <li><a href="#">경상</a></li>
+                            <li><a href="#">작은영화관</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">이벤트</a>
+                        <ul class="sub">
+                            <li><a href="#">전체이벤트</a></li>
+                            <li><a href="#">영화관이벤트</a></li>
+                            <li><a href="#">영화이벤트</a></li>
+                            <li><a href="#">당첨자발표</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">할인카드</a>
+                        <ul class="sub">
+                            <li><a href="#">통신사</a></li>
+                            <li><a href="#">할인신용카드</a></li>
+                            <li><a href="#">할인포인트카드</a></li>
+                            <li><a href="#">관람권/상품권</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="icon">
+                <a href="#">
+                    <img src="images/icon_06.png" alt="로그인">
+                </a>
+                <a href="#">
+                    <img src="images/icon_08.png" alt="검색">
+                </a>
+                <a href="#" class="btn_hamburger">
+                    <img src="images/icon_10.png" alt="메뉴">
+                </a>
+            </div>
+        </div>
+
+
+        <div class="m_overlay"></div>
+
+        <nav class="m_nav" aria-hidden="true">
+          <div class="m_nav_top">
+            <strong class="m_nav_title">MENU</strong>
+            <button type="button" class="m_close" aria-label="모바일 메뉴 닫기">&times;</button>
+          </div>
+      
+          <ul class="m_gnb">
+            <li class="has_sub">
+              <a href="#" class="m_depth1">영화</a>
+              <ul class="m_sub">
+                <li><a href="#">박스오피스</a></li>
+                <li><a href="#">최신개봉작</a></li>
+                <li><a href="#">상영예정작</a></li>
+              </ul>
+            </li>
+        
+            <li class="has_sub">
+              <a href="#" class="m_depth1">예매</a>
+              <ul class="m_sub">
+                <li><a href="#">예매하기</a></li>
+                <li><a href="#">상영시간표</a></li>
+              </ul>
+            </li>
+        
+            <li class="has_sub">
+              <a href="#" class="m_depth1">영화관</a>
+              <ul class="m_sub">
+                <li><a href="#">서울/경기/인천</a></li>
+                <li><a href="#">충청</a></li>
+                <li><a href="#">경상</a></li>
+                <li><a href="#">작은영화관</a></li>
+              </ul>
+            </li>
+        
+            <li class="has_sub">
+              <a href="#" class="m_depth1">이벤트</a>
+              <ul class="m_sub">
+                <li><a href="#">전체이벤트</a></li>
+                <li><a href="#">영화관이벤트</a></li>
+                <li><a href="#">영화이벤트</a></li>
+                <li><a href="#">당첨자발표</a></li>
+              </ul>
+            </li>
+        
+            <li class="has_sub">
+              <a href="#" class="m_depth1">할인카드</a>
+              <ul class="m_sub">
+                <li><a href="#">통신사</a></li>
+                <li><a href="#">할인신용카드</a></li>
+                <li><a href="#">할인포인트카드</a></li>
+                <li><a href="#">관람권/상품권</a></li>
+              </ul>
+            </li>
+          </ul>
+      
+          <div class="m_extra">
+            <a href="#" class="m_btn">로그인</a>
+            <a href="#" class="m_btn">예매확인</a>
+            <a href="#" class="m_btn">고객센터</a>
+          </div>
+        </nav>
+    </header>
+
+    <section id="slide">
+        <ul class="slide_wrap">
+            <li>
+                <a href="#" class="slide1"></a>
+                <img src="images/play-circle.png" alt="플레이" class="play_btn" data-video="https://www.youtube.com/embed/fRqegBxEvEc?si=91YjwdgDwRLhqzI4">
+            </li>
+            <li>
+                <a href="#" class="slide2"></a>
+                <img src="images/play-circle.png" alt="플레이" class="play_btn" data-video="https://www.youtube.com/embed/qSowpCj4Rwo?si=N547c2QpwBUo_fs5">
+            </li>
+            <li>
+                <a href="#" class="slide3"></a>
+                <img src="images/play-circle.png" alt="플레이" class="play_btn"
+                data-video="https://www.youtube.com/embed/LyMbgsFGQ6I?si=nOMcbhLpz-AYv2zw">
+            </li>
+        </ul>
+    </section>
+    
+    <div id="videoModal" class="modal">
+        <div class="modal_content">
+            <span class="close">&times;</span>
+            <iframe id="videoFrame" width="100%" height="100%" src="" frameborder="0" title="영화 예고편 영상"></iframe>
+        </div>
+    </div>
+
+
+
+    <main id="content">
+        <section class="box_office">
+            <div class="bo_header">
+                <h2>박스오피스</h2>
+                <a href="#" class="more">더보기 &gt;</a>
+            </div>
+
+            <div class="bo_body">
+                <button type="button" class="btn_arrow btn_prev" aria-label="이전 영화 보기">
+                    <img src="images/caret-right copy 2.png" alt="이전">
+                </button>
+                
+                <div class="bo_inner">
+                    <ul class="bo_list">
+                        <li class="bo_item">
+                            <a href="#" class="poster">
+                                <img src="images/1.jpg" alt="1">
+                                <div class="poster_hover">
+                                    <p> 
+                                        인기 애니메이션 '체인소 맨' 첫 공식 극장판 국내 상륙!
+                                        압도적 배틀 액션이 스크린에서 폭발한다!
+
+                                        데블 헌터로 일하는 소년 ‘덴지’는 조직의 배신으로 죽음에 내몰린 순간
+                                        전기톱 악마견 ‘포치타’와의 계약으로 하나로 합쳐져
+                                        누구도 막을 수 없는 존재 ‘체인소 맨’으로 다시 태어난다.
+                                    </p>
+                                </div>
+                                <div class="hover_rating">
+                                    <span class="rating_label">관람평</span>
+                                    <span class="rating_score">9.4</span>
+                                </div>
+
+                            </a>
+                            <div class="info">
+                                <h3 class="title">극장판 체이소 맨: 레제편</h3>
+                                <p class="rate">예매율 23.1%</p>
+                                <button class="btn_reserve">예약하기</button>
+                            </div>
+                        </li>
+
+                        <li class="bo_item">
+                            <a href="#" class="poster">
+                                <img src="images/2.jpg" alt="2">
+                                <div class="poster_hover">
+                                    <p> 
+                                        “끝을 보는 놈, 해맑은 놈, 잘생긴 놈, 눈 뜨고 자는 놈, 사랑스러운 놈”
+                                        10월, 뭉치면 더 웃기는 놈들의 대환장 코미디가 온다!           
+                                        어린 시절부터 한 몸처럼 붙어 다닌 24년 지기 사총사,
+                                        태정(강하늘), 도진(김영광), 연민(차은우), 금복(강영석)의 꿈은 바로 함께 하는 여행!
+                                    </p>
+                                </div>
+                                <div class="hover_rating">
+                                    <span class="rating_label">관람평</span>
+                                    <span class="rating_score">7.8</span>
+                                </div>
+                            </a>
+                            <div class="info">
+                                <h3 class="title">퍼스트라이드</h3>
+                                <p class="rate">예매율 21.2%</p>
+                                <button class="btn_reserve">예약하기</button>
+                            </div>
+                        </li>
+
+                        <li class="bo_item">
+                            <a href="#" class="poster">
+                                <img src="images/3.jpg" alt="3">
+                                <div class="poster_hover">
+                                    <p> 
+                                        위험이 도사리는 죽음의 땅. 사냥할 것인가, 사냥당할 것인가.  
+                                        프레데터로서 존재를 증명하기 위해 우주에서 가장 위험한 행성으로 첫 사냥에 나선 ‘덱’.
+                                        죽음의 땅에 도사린 모든 것으로부터 공격을 받던 순간, 휴머노이드 ‘티아’를 만난다. 
+                                    </p>
+                                </div>
+                                <div class="hover_rating">
+                                    <span class="rating_label">관람평</span>
+                                    <span class="rating_score">8.6</span>
+                                </div>
+                            </a>
+                            <div class="info">
+                                <h3 class="title">프레데터: 죽음의 땅</h3>
+                                <p class="rate">예매율 9.8%</p>
+                                <button class="btn_reserve">예약하기</button>
+                            </div>
+                        </li>
+
+                        <li class="bo_item">
+                            <a href="#" class="poster">
+                                <img src="images/4.jpg" alt="4">
+                                <div class="poster_hover">
+                                    <p> 
+                                        나쁜 놈들 잡는 마술사기단, 훔치고, 속이고, 즐겨라! 한때 더러운 방식으로 
+                                        돈을 모으는 재벌들을 시원하게 혼내주던 마술사기단 ‘포 호스맨’. 은퇴 후 
+                                        평범한 삶을 살고 있던 그들에게 새로운 임무를 알리는 의미심장한 카드가 배달된다.
+                                    </p>
+                                </div>
+                                <div class="hover_rating">
+                                    <span class="rating_label">관람평</span>
+                                    <span class="rating_score">7.7</span>
+                                </div>
+                            </a>
+                            <div class="info">
+                                <h3 class="title">나우 유 씨 미 3</h3>
+                                <p class="rate">예매율 9.2%</p>
+                                <button class="btn_reserve">예약하기</button>
+                            </div>
+                        </li>
+
+                        <li class="bo_item">
+                            <a href="#" class="poster">
+                                <img src="images/5.jpg" alt="5">
+                                <div class="poster_hover">
+                                    <p> 
+                                        "또다시 제자리. 방심하는 순간 영원히 이곳에 갇힌다! 무한루프 속 이상 현상을 찾아 탈출하라!
+                                        " 끝없이 반복되는 지하도에 갇힌 ‘헤매는 남자’, 아래의 규칙에 따라 8번 출구로 탈출해야만 한다. 
+                                        1. 단 하나의 이상 현상도 놓치지 말 것. 2. 이상 현상을 발견하면 즉시 되돌아갈 것. 
+                                        3. 이상 현상이 없다면 앞으로 나아갈 것. 4. 8번 출구를 통해서 밖으로 나갈 것
+                                    </p>
+                                </div>
+                                <div class="hover_rating">
+                                    <span class="rating_label">관람평</span>
+                                    <span class="rating_score">8.3</span>
+                                </div>
+                            </a>
+                            <div class="info">
+                                <h3 class="title">8번출구</h3>
+                                <p class="rate">예매율 6.3%</p>
+                                <button class="btn_reserve">예약하기</button>
+                            </div>
+                        </li>
+
+                        <li class="bo_item">
+                            <a href="#" class="poster">
+                                <img src="images/6.jpg" alt="6">
+                                <div class="poster_hover">
+                                    <p> 
+                                        혈귀로 변해버린 여동생 네즈코를 인간으로 되돌리기 위해 혈귀를 사냥하는 조직인 《귀살대》에 입대한 카마도 탄지로.
+                                        입대 후 동료인 아가츠마 젠이츠, 하시비라 이노스케와 함께 많은 혈귀와 싸우고, 성장하면서 세 사람의 우정과 유대는 깊어진다.
+                                    </p>
+                                </div>
+                                <div class="hover_rating">
+                                    <span class="rating_label">관람평</span>
+                                    <span class="rating_score">9.0</span>
+                                </div>
+                            </a>
+                            <div class="info">
+                                <h3 class="title">극장판 귀멸의 칼날: 무한성편</h3>
+                                <p class="rate">예매율 4.5%</p>
+                                <button class="btn_reserve">예약하기</button>
+                            </div>
+                        </li>
+
+                        <li class="bo_item">
+                            <a href="#" class="poster">
+                                <img src="images/7.jpg" alt="7">
+                                <div class="poster_hover">
+                                    <p> 
+                                        ‘다 이루었다’는 생각이 들 만큼 삶에 만족하던 25년 경력의 제지 전문가 ‘만수’(이병헌).
+                                        아내 ‘미리’(손예진), 두 아이, 반려견들과 함께 행복한 일상을 보내던 만수는 회사로부터
+                                        돌연 해고 통보를 받는다. “미안합니다. 어쩔 수가 없습니다.” 
+                                    </p>
+                                </div>
+                                <div class="hover_rating">
+                                    <span class="rating_label">관람평</span>
+                                    <span class="rating_score">7.2</span>
+                                </div>
+                            </a>
+                            <div class="info">
+                                <h3 class="title">어쩔수가없다</h3>
+                                <p class="rate">예매율 3.4%</p>
+                                <button class="btn_reserve">예약하기</button>
+                            </div>
+                        </li>
+
+                        <li class="bo_item">
+                            <a href="#" class="poster">
+                                <img src="images/8.jpg" alt="8">
+                                <div class="poster_hover">
+                                    <p> 
+                                       "누가 누구를 지배하는가" 맨해튼의 호화로운 아파트, 자상한 예술가 남편과 사랑스런 두 딸,
+                                        로봇 자동화 회사의 CEO 로미(니콜 키드먼). 여성들의 롤모델로서 모든 것이 완벽해 보이는 삶이지만,
+                                        로미는 지배 당하고 싶은 자신의 욕망이 부끄럽다고 생각해 오랜 결혼생활에도 진정한 즐거움을 
+                                        찾지 못했다. 
+                                    </p>
+                                </div>
+                                <div class="hover_rating">
+                                    <span class="rating_label">관람평</span>
+                                    <span class="rating_score">6.0</span>
+                                </div>
+                            </a>
+                            <div class="info">
+                                <h3 class="title">베이비걸</h3>
+                                <p class="rate">예매율 3%</p>
+                                <button class="btn_reserve">예약하기</button>
+                            </div>
+                        </li>
+
+                        <li class="bo_item">
+                            <a href="#" class="poster">
+                                <img src="images/9.jpg" alt="9">
+                                 <div class="poster_hover">
+                                    <p> 
+                                       반장, 모범생, 학교 인싸인 동시에 연애가 가장 큰 관심사인 열여덟 ‘이주인’.
+                                       어느 날, 반 친구 ‘수호’가 제안한 서명운동에 전교생이 동참하던 중 오직 
+                                       ‘주인’만이 내용에 동의할 수 없다며 나 홀로 서명을 거부한다.
+                                    </p>
+                                </div>
+                                <div class="hover_rating">
+                                    <span class="rating_label">관람평</span>
+                                    <span class="rating_score">9.0</span>
+                                </div>
+                            </a>
+                            <div class="info">
+                                <h3 class="title">세계의 주인</h3>
+                                <p class="rate">예매율 2.6%</p>
+                                <button class="btn_reserve">예약하기</button>
+                            </div>
+                        </li>
+
+                        <li class="bo_item"> 
+                            <a href="#" class="poster">
+                                <img src="images/10.jpg" alt="10">
+                                <div class="poster_hover">
+                                    <p> 
+                                       "사람들은 누구나 거짓말을 하지." 폭설이 휘몰아친 새벽, 흉기에 찔려 피투성이가 된 은서(김정민)를 싣고 
+                                       병원에 온 도경(정려원)은 그녀를 언니라 부르며 살려달라 도움을 청한다.
+                                       곧이어 현장에 도착한 경찰 현주(이정은)는 도경의 혼란스러운 진술 속 무언가 감춰진 진실을 직감하는데…
+                                    </p>
+                                </div>
+                                <div class="hover_rating">
+                                    <span class="rating_label">관람평</span>
+                                    <span class="rating_score">8.2</span>
+                                </div>
+                            </a>
+                            <div class="info">
+                                <h3 class="title">하얀 차를 탄 여자</h3>
+                                <p class="rate">예매율 2.4%</p>
+                                <button class="btn_reserve">예약하기</button>
+                            </div>
+                        </li>
+
+                        <li class="bo_item">
+                            <a href="#" class="poster">
+                                <img src="images/11.jpg" alt="11">
+                                <div class="poster_hover">
+                                    <p> 
+                                       조직의 미래가 걸린 차기 보스 선출을 앞두고 각자의 꿈을 위해 서로에게 보스 자리를 치열하게 
+                                       ‘양보’하는 조직원들의 필사적인 대결을 그린 코믹 액션
+                                    </p>
+                                </div>
+                                <div class="hover_rating">
+                                    <span class="rating_label">관람평</span>
+                                    <span class="rating_score">7.9</span>
+                                </div>
+                            </a>
+                            <div class="info">
+                                <h3 class="title">보스</h3>
+                                <p class="rate">예매율 2.3%</p>
+                                <button class="btn_reserve">예약하기</button>
+                            </div>
+                        </li>
+
+                        <li class="bo_item">
+                            <a href="#" class="poster">
+                                <img src="images/12.jpg" alt="12">
+                                <div class="poster_hover">
+                                    <p> 
+                                        "최강의 두 사람, 다시는 돌아갈 수 없는 푸른 봄" 2006년 봄, 주술고등전문학교 시절의 고죠 사토루와 게토 스구루.
+                                        불사의 술식을 가진 주술계 핵심, 텐겐으로부터 의뢰가 도착한다. 의뢰는 두 가지, 텐겐과 적합자인 성장체 아마나이 리코라는 소녀의
+                                        ‘호위’와 ‘말소’. 
+                                    </p>
+                                </div>
+                                <div class="hover_rating">
+                                    <span class="rating_label">관람평</span>
+                                    <span class="rating_score">7.9</span>
+                                </div>
+                            </a>
+                            <div class="info">
+                                <h3 class="title">극장판 주술회전: 회옥•옥절</h3>
+                                <p class="rate">예매율 2%</p>
+                                <button class="btn_reserve">예약하기</button>
+                            </div>
+                        </li> 
+                    </ul>
+                </div>
+
+                <button type="button" class="btn_arrow btn_next">
+                    <img src="images/caret-right copy 3.png" alt="다음">
+                </button>
+            </div>
+        </section>
+
+        <section class="about_cinema">
+            <div class="ac_header">
+                <h2>영화관</h2>
+            </div>
+            <div class="ac_body">
+                <div class="ac_inner">
+                    <ul class="ac_list">
+                        <li class="ac_item">
+                            <a href="#">
+                                <img src="images/about_1.jpg" class="img_default" alt="신도림">
+                                <img src="images/about_1_hover.jpg" class="img_hover" alt="신도림 hover">
+                            </a>
+                        </li>
+                        <li class="ac_item">
+                            <a href="#">
+                                <img src="images/about_2.jpg" class="img_default" alt="청라">
+                                <img src="images/about_2_hover.jpg" class="img_hover" alt="청라 hover">
+                            </a>
+                        </li>
+                        <li class="ac_item">     
+                            <a href="#">
+                                <img src="images/about_3.jpg" class="img_default" alt="구미봉곡">
+                                <img src="images/about_3_hover.jpg" class="img_hover" alt="구미봉곡 hover">
+                            </a>
+                        </li>
+                        <li class="ac_item">
+                            <a href="#">
+                                <img src="images/about_4.jpg" class="img_default" alt="천안불당">
+                                <img src="images/about_4_hover.jpg" class="img_hover" alt="천안불당 hover">
+                            </a>
+                        </li>
+                        <li class="ac_item">
+                            <a href="#">
+                                <img src="images/about_5.jpg" class="img_default" alt="경주보문">
+                                <img src="images/about_5_hover.jpg" class="img_hover" alt="경주보문 hover">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="event">
+            <div class="event_header">
+                <h2>이벤트</h2>
+                <a href="#" class="more">더보기 &gt;</a>
+            </div>
+            <div class="event_body">
+                <div class="event_inner">
+                    <ul class="event_list">
+                        <li class="event_item">
+                            <a href="#">
+                                <img src="images/event1.jpg" alt="이벤트1">
+                            </a>
+                        </li>
+                        <li class="event_item">
+                            <a href="#">
+                                <img src="images/event2.jpg" alt="이벤트2">
+                            </a>
+                        </li>
+                        <li class="event_item">
+                            <a href="#">
+                                <img src="images/event3.jpg" alt="이벤트3">
+                            </a>
+                        </li>
+                        <li class="event_item">
+                            <a href="#">
+                                <img src="images/event4.jpg" alt="이벤트4">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="notice">
+            <div class="notice_inner">
+                <span class="notice_label">공지사항</span>
+                <div class="notice_ticker">
+                    <ul>
+                        <li><a href="#">[씨네Q]제휴 및 위탁점 문의 안내</a></li>
+                        <li><a href="#">회사 사칭 피싱 사기 주의</a></li>
+                        <li><a href="#">[씨네Q] 온라인 예매 수량 안내</a></li>
+                        <li><a href="#">씨네Q 멤버십 사용 포인트 변경 안내</a></li>
+                    </ul>
+                </div>
+                <a href="#" class="notice_more">더보기 &gt;</a>
+            </div>
+        </section>
+        
+
+    </main>
+    <footer id="footer">
+        <div class="ft_logo">
+            <a href="#">
+                <img src="images/ft_logo.png" alt="logo_ft">
+            </a>
+        </div>
+        <div class="copy">
+            <div>
+                <a href="#">회사소개 </a>
+                <a href="#">IR</a>|
+                <a href="#">제휴/광고/부대사업 문의</a>|
+                <a href="#">이용약관</a>|
+                <a href="#" class="copy_red">개인정보처리방침</a>|
+                <a href="#">고객센터</a>|
+                <a href="#">배정/편성기준</a>|
+                <a href="#">사이트맵 </a>|
+            </div>
+            <div>
+                <p>
+                    사업자명: (주)씨네큐 | 사업자등록번호 656-88-01741 | 통신판매업신고번호 2020-서울강남-03517 | 대표이사 유제천 <br>
+                    서울특별시 강남구 학동로 9길(5) | 개인정보책임자 대표 이경선 | 고객센터 1544-1533 | 대표이메일 : cineq@its-new.co.kr 
+                </p>
+            </div>
+            <br>
+            <div>
+                Copyright© CINE Q.All rights reserved
+            </div>
+        </div>
+    </footer>
+
+
+    
+    
+</body>    
+</html>

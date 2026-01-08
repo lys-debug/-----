@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HaagenDazs</title>
+
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script/script.js" type="text/javascript"></script>
+
+
+</head>
+<body>
+    <header class="hd_header">
+        <div class="hd_header_top">
+            <div class="hd_header_inner">
+                <h1 class="hd_logo">
+                    <a href="#">
+                        <img src="images/logo_03.png" alt="하겐다즈 로고">
+                    </a>
+                </h1>
+
+                <button class="hamburger" type="button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </div>
+        </div>
+
+        <div class="hd_side">
+
+            <button class="hd_side_close" type="button" aria-label="메뉴 닫기">x</button>
+
+
+            <ul class="hd_util">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">장바구니</a></li>
+                <li><a href="#">주문/배송조회</a></li>
+            </ul>
+    
+            <nav class="hd_gnb">
+              <ul class="hd_gnb_nav">
+                <li class="has-sub">
+                  <a href="#">제품</a>
+                  <ul class="sub">
+                    <li><a href="#">전체보기</a></li>
+                    <li><a href="#">신제품</a></li>
+                    <li><a href="#">파인트</a></li>
+                    <li><a href="#">미니컵</a></li>
+                    <li><a href="#">스틱바</a></li>
+                    <li><a href="#">케이크</a></li>
+                  </ul>
+                </li>
+            
+                <li class="has-sub">
+                  <a href="#">이벤트</a>
+                  <ul class="sub">
+                    <li><a href="#">진행 중 이벤트</a></li>
+                    <li><a href="#">당첨자 발표</a></li>
+                  </ul>
+                </li>
+            
+                <li class="has-sub">
+                  <a href="#">멤버십</a>
+                  <ul class="sub">
+                    <li><a href="#">멤버십 혜택</a></li>
+                    <li><a href="#">멤버십 가입</a></li>
+                  </ul>
+                </li>
+            
+                <li><a href="#">브랜드</a></li>
+                <li><a href="#">외식사업고객용(B2B)</a></li>
+              </ul>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <section class="hd_hero">
+        <div class="hero_bg"></div>
+        <div class="hero_inner">
+            <h1 class="hero_inner_title">
+                This Month’s <span>BEST PICK!</span>
+            </h1>
+
+            <div class="hero_wrap">
+                <button class="hero_arrow hero_prev" type="button">
+                    <img src="images/arrow_left.png" alt="이전">
+                </button>
+
+                <div class="hero_product">
+                    <img src="images/1_03.png" alt="">
+                </div>
+
+                <button class="hero_arrow hero_next" type="button">
+                    <img src="images/arrow_right.png" alt="다음">
+                </button>
+            </div>
+            <p class="hero_product_name">PEANUT BUTTER CRUNCH</p>
+        </div>
+        
+    </section>
+
+    <section class="hd_brand">
+        <div class="brand_inner">
+            <header class="brand_intro">
+              <h1 class="sr-only">하겐다즈 브랜드 소개</h1>
+                <p class="brand_label">BRAND STORY</p>
+                <h2 class="brand_title">
+                    1961년부터 시작된<br>
+                    프리미엄 아이스크림 하겐다즈
+                </h2>
+                <p class="brand_desc">
+                    하겐다즈가 엄격한 원칙을 바탕으로 만든 아이스크림, <br>
+                    그 시작과 끝은 지금으로부터 60년이 넘는 날이지만 변치않은 정성입니다
+                </p>
+            </header>
+
+            <article class="brand_block">
+                <div class="brand_text">
+                    <h3 class="brand_block_title">1961년, 프리미엄을 향한 시작</h3>
+                    <p>
+                        1961년부터 시작된 프리미엄 아이스크림 브랜드 하겐다즈. <br><br>
+                        세계 최고의 아이스크림만을 생각하며 하겐다즈는 주저하지 않고 도전했습니다.
+                    </p>
+                </div>
+                <figure class="brand_video">
+                    <video src="images/brand.mp4"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    ></video>
+                </figure>
+            </article>
+
+            <article class="brand_block brand_block--reverse">
+                <figure class="brand_image">
+                    <img src="images/brand_2.jpg" alt="하겐다즈 브랜드 이미지2">
+                </figure>
+                <div class="brand_text">
+                    <h3 class="brand_block_title">Don't Hold Back</h3>
+                    <p>
+                        하겐다즈는 남들과는 다른 하겐다즈만의 타협하지 않는 퀄리티를 지켜왔습니다. <br><br>
+                        그 시작과 끝은 고객만족의 원칙과 변치않은 정성입니다.
+                    </p>
+                </div>
+                
+            </article>
+
+            <article class="brand_block">
+                <div class="brand_text">
+                    <h3 class="brand_block_title">변하지 않는 퀄리티</h3>
+                    <p>
+                        하겐다즈가 다루는 프리미엄의 차별점은 간단합니다. <br><br>
+
+                        원재료의 맛 그래도, 깊은 풍미가 담기도록 합니다.<br><br>
+
+                        -세계 23개국에서 30여년 이상 검증된 원재료만을 사용<br>
+                        -진하고 깊은 크림의 풍미, 높은 밀도의 구조<br>
+                        -하겐다즈 아이스크림은 누구도 따라오지 못하는 독보성<br>
+                        -60년이상 이어온 프리미엄만 지닌 완성도와 진한 깊이
+                    </p>
+                </div>
+                <figure class="brand_image">
+                    <img src="images/brand_3.jpg" alt="하겐다즈 브랜드 이미지3">
+                </figure>
+            </article>
+
+            <section class="brand_ingredients">
+                <h3 class="brand_block_title">하겐다즈 아이스크림의 특별한 원료</h3>
+                <p class="brand_ing_desc">
+                    하겐다즈의 특별한 퀄리티는 무언가를 넣는 것에 그치지 않고 빼내는 것에서부터 옵니다. <br>
+                    가장 최소한의 원료만을 사용하여, 합성 색소 및 향료 등을 넣지 않기 때문에 <br>
+                    하겐다즈의 맛이 원료 본연의 맛을 가장 잘 보여줄 수 있는 아이스크림을 만듭니다.<br><br>
+
+                    하겐다즈의 모든 아이스크림은 기본적으로 크림, 우유, 달걀, 그리고 설탕 네 가지의 기본적인 최상급 원료에서부터 시작합니다.<br>
+                </p>
+
+                <ul class="brand_ing_list">
+                    <li>
+                        <img src="images/brand_ing_11.png" alt="바닐라">
+                        <div>
+                            <strong>바닐라</strong>
+                            <p>
+                                품질 좋은 마다가스카르 원산지를 사용하여 만든 하겐다즈 바닐라 아이스크림.
+                                깊고 부드러운 맛의 정수를 보여주는 순수한 맛.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/brand_ing_15.png" alt="딸기">
+                        <div>
+                            <strong>딸기</strong>
+                            <p>
+                                가장 완벽한 맛의 딸기 아이스크림을 만들기 위해 6년간 앞맛을 연구했습니다.
+                                기존 딸기보다 더 진하고 신선한 맛.    
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/brand_ing_19.png" alt="초콜릿">
+                        <div>
+                            <strong>초콜릿</strong>
+                            <p>
+                                초콜릿에 관해서라면 하겐다즈의 최고만을 추구합니다.
+                                그게 하겐다즈를 비교 불가한 프리미엄으로 만듭니다.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/brand_ing_23.png" alt="카라멜">
+                        <div>
+                            <strong>카라멜</strong>
+                            <p>
+                                전문 업체와 함께 찾아낸 클래식한 카라멜 소스로 중독성 있는 맛을 완성했습니다.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </section>
+
+
+
+    <section class="hd_slide">
+        
+        <div class="slide_inner">
+            <img src="images/slide_bg_26.png" alt="slide_bg">
+            <div class="slide_track" id="cupTrack">
+                <div class="slide_item"><a href="#"><img src="images/1.png" alt="하겐다즈 블루베리"></a></div>
+                <div class="slide_item"><a href="#"><img src="images/2.png" alt="하겐다즈 초코"></a></div>
+                <div class="slide_item"><a href="#"><img src="images/3.png" alt="하겐다즈 쿠키 그린티"></a></div>
+                <div class="slide_item"><a href="#"><img src="images/4.png" alt="하겐다즈 스트로베리"></a></div>
+                <div class="slide_item"><a href="#"><img src="images/5.png" alt="하겐다즈 커피"></a></div>
+                <div class="slide_item"><a href="#"><img src="images/6.png" alt="하겐다즈 츄러스"></a></div>
+                <div class="slide_item"><a href="#"><img src="images/7.png" alt="하겐다즈 티라미수"></a></div>
+                <div class="slide_item"><a href="#"><img src="images/8.png" alt="하겐다즈 카라멜 비스킷"></a></div>
+                <div class="slide_item"><a href="#"><img src="images/9.png" alt="하겐다즈 피스타치오"></a></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="new-menu">
+        <div class="new-menu-inner">
+            <div class="cookie-title">
+                <img src="images/cookie_03.png" alt="하겐다즈 쿠키 컬렉션">
+            </div>
+
+            <ul class="cookie-list">
+                <li class="cookie-item">
+                    <a href="#">
+                        <img class="img-default" src="images/new1_09.png" alt="쿠키 크림">
+                        <img class="img-hover" src="images/new1_hover_09.png" alt="쿠키 크림 hover">
+                    </a>
+                </li>
+                <li class="cookie-item">
+                    <a href="#">
+                        <img class="img-default" src="images/new2_11.png" alt="쿠키 그린티">
+                        <img class="img-hover" src="images/new2_hover_11.png" alt="쿠키 그린티 hover">
+                    </a>
+                </li>
+                <li class="cookie-item">
+                    <a href="#">
+                        <img class="img-default" src="images/new3_13.png" alt="쿠키 초콜릿">
+                        <img class="img-hover" src="images/new3_hover_13.png" alt="쿠키 초콜릿 hover">
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section class="mood" id="mood">
+      <div class="mood-inner">
+        <div class="mood-hero">
+          <img src="images/q_20.png" alt="오늘 기분에 맞는 하겐다즈는?">
+        </div>
+    
+        <ul class="mood-list">
+          <li class="mood-item">
+            <button type="button" class="mood-btn" data-mood="happy" aria-label="행복한 기분에 맞는 제품 추천받기">행복한</button>
+          </li>
+          <li class="mood-item">
+            <button type="button" class="mood-btn" data-mood="sad" aria-label="우울한 기분에 맞는 제품 추천받기">우울한</button>
+          </li>
+          <li class="mood-item">
+            <button type="button" class="mood-btn" data-mood="calm" aria-label="평온한 기분에 맞는 제품 추천받기">평온한</button>
+          </li>
+          <li class="mood-item">
+            <button type="button" class="mood-btn" data-mood="flutter" aria-label="설레는 기분에 맞는 제품 추천받기">설레는</button>
+          </li>
+          <li class="mood-item">
+            <button type="button" class="mood-btn" data-mood="tired" aria-label="피곤한 기분에 맞는 제품 추천받기">피곤한</button>
+          </li>
+        </ul>
+      </div>
+  
+
+      <div class="mood-modal" id="moodModal" aria-hidden="true">
+        <div class="mood-modal__dim" data-close="true"></div>
+    
+        <div class="mood-modal__panel" role="dialog" aria-modal="true" aria-labelledby="moodModalTitle">
+          <button type="button" class="mood-modal__close" data-close="true" aria-label="닫기">x</button>
+        
+          <h3 class="mood-modal__tag" id="moodModalTag">행복한</h3>
+        
+          <div class="mood-modal__img">
+            <img id="moodModalImg" src="images/modal_1.png" alt="바닐라">
+          </div>
+      
+          <p class="mood-modal__title" id="moodModalTitle">하겐다즈 바닐라</p>
+          <p class="mood-modal__desc" id="moodModalDesc">부드럽고 달콤한 향으로 오늘의 행복을 더 진하게</p>
+      
+          <p class="mood-modal__hash" id="moodModalHash">
+            #하겐다즈 #바닐라 #백투클래식 #바닐라는아이스크진리지
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <footer class="ft">
+        <div class="ft-inner">
+          <div class="ft-col ft-info">
+            <img class="ft-logo" src="images/ft_logo.png" alt="ft_logo">
+            <p class="ft-desc">
+              하겐다즈몰은 주식회사 에스와이피글로벌에서 판매운영대행을 하고 있습니다.
+            </p>
+
+            <p class="ft-text">
+              한국하겐다즈(주) 대표 : 김미조<br>
+              주소 : 서울특별시 강남구 테헤란로 311 (역삼동, 아남타워 6층)<br>
+              사업자등록번호 : 106-81-28964<br>
+              통신판매신고 : 강남-8166 | 대표전화 : 02-508-8500<br>
+              개인정보관리책임자 : 김미조 대표
+            </p>
+
+            <p class="ft-text">
+              주식회사 에스와이피글로벌 대표 : 김광용(사업자정보확인)<br>
+              주소 : 서울특별시 강남구 봉은사로112길 26, 5층 502호<br>
+              사업자등록번호 : 262-88-00829 | 통신판매신고 : 2018-서울강남-00403<br>
+              대표전화 : 070-7549-7020<br>
+              Email : cs@unitoa.com | 개인정보관리책임자 : 조현정
+            </p>
+          </div>
+
+          <div class="ft-col ft-call">
+            <p class="ft-title">하겐다즈 고객만족센터</p>
+            <p class="ft-tel">070-7549-7020</p>
+            <p class="ft-time">
+              * 고객센터 운영시간 : 평일 10:00 ~ 17:00<br>
+              (점심시간 12:00 ~ 13:00)
+            </p>
+
+            <ul class="ft-links">
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">이메일무단수집거부</a></li>
+            </ul>
+          </div>
+
+          <div class="ft-col ft-menu">
+            <ul class="ft-menu-list">
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">이벤트</a></li>
+              <li><a href="#">매장안내</a></li>
+              <li><a href="#">고객센터</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="ft-bottom">
+          <p>Copyright © 2021 Haagen-Dazs Korea. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+    
+
+</body>
+</html>
